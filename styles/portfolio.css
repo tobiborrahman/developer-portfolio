@@ -12,29 +12,35 @@
     font-weight: 700;
     font-size: 20px;
     border: 0;
-    padding: 18px 35px;
-    height: 64px;
+    padding: 10px 25px;
+    /* height: 40px; */
     border-radius: 5px;
     background: #FD6E0A;
 }
 
 .header {
+    width: 100%;
+    height: 100vh;
     background: #FFF8F3;
     background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-size: 500px 300px, 70px 90vh;
     background-repeat: no-repeat;
     background-position: bottom right, left;
 }
 
 /* header and navigation styles */
+.navbar{
+    padding: 20px 100px;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
-    padding: 50px 200px;
 }
 
 .nav-title {
     font-weight: 800;
-    font-size: 45px;
+    font-size: 30px;
 }
 
 nav ul {
@@ -48,21 +54,33 @@ nav li {
 }
 
 /* banner styles */
-.banner {
+.banner{
     display: flex;
+    justify-content: space-evenly;
     align-items: center;
-    margin: 0 200px;
 }
-
+.banner-details{
+    margin-left: 80px;
+}
+.banner-photo{
+    margin-right: 0;
+    padding-right: 0;
+    text-align: right;
+}
 .banner-title {
     font-weight: 700;
-    font-size: 85px;
+    font-size: 60px;
+}
+
+.tobibor{
+    width: 500px;
+    height: 500px;
 }
 
 .banner-sub-title {
     font-weight: 600;
-    font-size: 45px;
-    margin-bottom: 20px;
+    font-size: 40px;
+    /* margin-bottom: 10px; */
 }
 
 .banner-description {
